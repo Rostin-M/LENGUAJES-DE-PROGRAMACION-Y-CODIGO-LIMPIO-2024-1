@@ -1,6 +1,6 @@
 # LENGUAJES-DE-PROGRAMACION-Y-CODIGO-LIMPIO-2024-1
 
-##POR:
+## POR:
 ## Rostin Santiago Alzate Montoya
 ## Miguel Ayala Parra
 
