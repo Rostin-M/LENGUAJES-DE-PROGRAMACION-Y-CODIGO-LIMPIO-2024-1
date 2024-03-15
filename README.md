@@ -1,4 +1,4 @@
-# LENGUAJES-DE-PROGRAMACION-Y-CODIGO-LIMPIO-2024-1
+# LENGUAJES DE PROGRAMACIÓN Y CÓDIGO LIMPIO 2024-1
 
 ## POR:
 ## Rostin Santiago Alzate Montoya
@@ -6,7 +6,7 @@
 
 
 
-#¿Qué es y para qué es?
+# ¿Qué es y para qué es?
 Es un programa que calcula la hipoteca inversa en tres casos o modalidades:
 
 ## Hipoteca Inversa Temporal
