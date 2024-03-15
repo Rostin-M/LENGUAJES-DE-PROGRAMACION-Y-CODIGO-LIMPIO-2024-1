@@ -6,13 +6,12 @@
 
 
 
-Por ejemplo, este Cheat Sheet: https://www.markdownguide.org/cheat-sheet/
+#¿Qué es y para qué es?
+Es un programa que calcula la hipoteca inversa en tres casos o modalidades:
 
-¿Quién hizo esto?
-Lista de autores (no ponga email, telefonos, nada de informacion privada)
-
-¿Qué es y para qué es?
-Describir el propósito del proyecto
+## Hipoteca Inversa Temporal
+## Hipoteca Inversa Vitalicia
+## Hipoteca Inversa Unica
 
 ¿Cómo lo hago funcionar?
 Prerrequisitos: que se debe hacer o tener antes de poder correr este proyecto
