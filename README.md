@@ -37,7 +37,7 @@ Este proyecto sigue una arquitectura modular y limpia. Aquí está la estructura
 
 - Carpeta `test`: Contiene las pruebas unitarias para el código.
     - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
-    - `Test_Module.py`: Archivo que contiene las pruebas unitarias para el código en `logic`.
+    - `test.py`: Archivo que contiene las pruebas unitarias para el código en `logic`.
 
 ### Pruebas
 Para ejecutar las pruebas unitarias, desde la carpeta raíz del proyecto, utiliza el siguiente comando en la terminal:
