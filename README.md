@@ -1,7 +1,7 @@
 ## LENGUAJES DE PROGRAMACIÓN Y CÓDIGO LIMPIO 2024-1
 
 ### POR:
-Rostin Santiago Alzate Montoya
+Rostin Santiago Alzate Montoya y
 Miguel Ayala Parra
 
 ### ¿Qué es y para qué es?
