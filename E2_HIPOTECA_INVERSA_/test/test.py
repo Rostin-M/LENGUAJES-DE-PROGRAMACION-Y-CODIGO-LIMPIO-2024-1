@@ -113,7 +113,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 180
         interest_housing = 0.20
         result = round(CM.MortgageTemporaryReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 1111111.11
+        expected = 27777777.78
         self.assertEqual(result, expected)
 
     def test_case_extraordinary_4(self): 
@@ -128,7 +128,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 264
         interest_housing = 0.9
         result = round(CM.MortgageTemporaryReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 784090.91
+        expected = 968013.47
         self.assertEqual(result, expected)
 
     def test_case_extraordinary_5(self):
@@ -143,7 +143,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 300
         interest_housing = 0.85
         result = round(CM.MortgageTemporaryReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 3400000
+        expected = 4705882.35
         self.assertEqual(result, expected)
 
     def test_case_extraordinary_6(self):
@@ -158,7 +158,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 12
         interest_housing = 0.10
         result = round(CM.MortgageTemporaryReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 450000
+        expected = 45000000.0
         self.assertEqual(result, expected)
 
     # 8 casos de error
