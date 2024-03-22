@@ -17,7 +17,7 @@ Este programa calcula la hipoteca inversa en tres casos o modalidades:
 
 #### Ejecución:
 1. Abre una terminal.
-2. Navega hasta la carpeta donde se encuentra el archivo `main.py` del proyecto.
+2. Navega hasta la carpeta donde se encuentra guardado el proyecto.
 3. Ejecuta el programa usando el siguiente comando:
     ```
     python main.py
