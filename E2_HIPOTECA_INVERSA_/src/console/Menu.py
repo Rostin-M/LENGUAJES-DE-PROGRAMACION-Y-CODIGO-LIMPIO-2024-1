@@ -39,16 +39,16 @@ def Menu():
     if type_mortgage == "1":
         print("Calculando Hipoteca Vitalicia...")
         result = C.MortgageLifetimeInverse(total_amount, interest_rate, quotas, interest_housing)
-        print(result)
+        print(f"Su cuota  sera de : {result}")
     elif type_mortgage == "2":
         print("Calculando Hipoteca Temporal...")
         result = C.MortgageTemporaryReverse(total_amount, interest_rate, quotas, interest_housing)
-        print(result)
+        print(f"Su cuota  sera de : {result}")
 
     elif type_mortgage == "3":
         print("Calculando Hipoteca Única...")
         result = C.MortgageSingleReverse(total_amount, interest_rate, quotas, interest_housing)
-        print(result)
+        print(f"Su cuota  sera de : {result}")
 
     else:
         print("¡Opción no válida! Por favor, seleccione una opción válida.")
