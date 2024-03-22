@@ -1,34 +1,46 @@
-# LENGUAJES DE PROGRAMACIÓN Y CÓDIGO LIMPIO 2024-1
+## LENGUAJES DE PROGRAMACIÓN Y CÓDIGO LIMPIO 2024-1
 
-## POR:
-## Rostin Santiago Alzate Montoya
-## Miguel Ayala Parra
+### POR:
+Rostin Santiago Alzate Montoya
+Miguel Ayala Parra
 
+### ¿Qué es y para qué es?
+Este programa calcula la hipoteca inversa en tres casos o modalidades:
 
+- Hipoteca Inversa Temporal
+- Hipoteca Inversa Vitalicia
+- Hipoteca Inversa Única
 
-# ¿Qué es y para qué es?
-Es un programa que calcula la hipoteca inversa en tres casos o modalidades:
+### ¿Cómo hacerlo funcionar?
+#### Prerrequisitos:
+- Python debe estar instalado en tu sistema.
 
-## Hipoteca Inversa Temporal
-## Hipoteca Inversa Vitalicia
-## Hipoteca Inversa Unica
+#### Ejecución:
+1. Abre una terminal.
+2. Navega hasta la carpeta donde se encuentra el archivo `main.py` del proyecto.
+3. Ejecuta el programa usando el siguiente comando:
+    ```
+    python main.py
+    ```
 
-¿Cómo lo hago funcionar?
-Prerrequisitos: que se debe hacer o tener antes de poder correr este proyecto
-Ejecución: como hacemos correr el programa, POR FUERA DEL ENTORNO DE DESARROLLO
-¿Cómo está hecho?
-Describir la arquitectura del proyecto, bibliotecas usadas, dependencias de otros proyectos
+### ¿Cómo está hecho?
+Este proyecto sigue una arquitectura modular y limpia. Aquí está la estructura del proyecto:
 
-Y la organización de los módulos (que hay en cada carpeta)
+- Carpeta `Logic`: Contiene el código fuente de la lógica de la aplicación.
+  - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
+  - `Calculations.py`: Contiene las funciones para calcular la hipoteca inversa en diferentes modalidades y algunas verificaciones para ello.
+  - `Exceptions.py`: Define las excepciones personalizadas utilizadas en el programa.
+  - `Menu.py`: Proporciona el menú de la aplicación.
 
-Estructura sugerida
-Carpeta src: Codigo fuente de la logica de la aplicación. Tiene subcarpetas por cada capa de la aplicacion
-Carpeta tests: Pruebas Unitarias
-Recuerde que cada carpeta de código fuente debe contener un archivo __init.py que permite que python reconozca la carpeta como un Módulo y pueda hacer import
+- Carpeta `Test`: Contiene las pruebas unitarias para el código.
+  - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
+  - `Test_Module.py`: Archivo que contiene las pruebas unitarias para el código en `Logic`.
 
-Uso
-Para ejecutar las pruebas unitarias, desde la carpeta src, use el comando
+### Uso
+Para ejecutar las pruebas unitarias, desde la carpeta raíz del proyecto, utiliza el siguiente comando en la terminal:
 
-cleancode-01\src> python -m unittest discover ..\tests -p '*test*.py' Para poder ejecutarlas desde la carpeta raiz, debe indicar la ruta de busqueda donde se encuentran los módulos, incluyendo las siguientes lineas al inicio del módulo de pruebas
+```
+python -m unittest discover Test -p '*Test*.py'
+```
 
-import sys sys.path.append("src")
+Con estos pasos, podrás ejecutar y probar la funcionalidad del programa.
