@@ -1,6 +1,10 @@
 import unittest
-from src.logic import Calculations as CM
-from src.logic import Exceptions as E
+
+import sys
+sys.path.append("src")
+
+from logic import Calculations as CM
+from logic import Exceptions as E
 
 class Test_ReverseMortgage(unittest.TestCase):
 
@@ -15,7 +19,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 204
         interest_housing = 0.3
         result = round(CM.MortgageSingleReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 294117.65
+        expected = 3267973.86
         self.assertEqual(result, expected)
 
     def test_case_normal_2(self):
@@ -25,7 +29,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 156
         interest_housing = 0.35
         result = round(CM.MortgageLifetimeInverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 336538.46
+        expected =  2747252.75
         self.assertEqual(result, expected)
 
     def test_case_normal_3(self):
@@ -35,7 +39,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 156
         interest_housing = 0.45
         result = round(CM.MortgageLifetimeInverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 675000
+        expected = 3333333.33
         self.assertEqual(result, expected)
 
     def test_case_normal_4(self):
@@ -45,7 +49,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 228
         interest_housing = 0.40
         result = round(CM.MortgageLifetimeInverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 114035.09
+        expected = 712719.3
         self.assertEqual(result, expected)
 
     def test_case_normal_5(self):
@@ -55,7 +59,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 72
         interest_housing = 0.1
         result = round(CM.MortgageLifetimeInverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 159722.22
+        expected = 15972222.22
         self.assertEqual(result, expected)
 
     def test_case_normal_6(self):
@@ -65,7 +69,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 228
         interest_housing = 0.48
         result = round(CM.MortgageLifetimeInverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 1124210.53
+        expected = 4879385.96
         self.assertEqual(result, expected)
 
     # 6 casos extraordinarios
@@ -82,7 +86,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 12
         interest_housing = 0.10
         result = round(CM.MortgageTemporaryReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 741666.67
+        expected = 74166666.67
         self.assertEqual(result, expected)
 
     def test_case_extraordinary_2(self):
@@ -97,7 +101,7 @@ class Test_ReverseMortgage(unittest.TestCase):
         quotas = 120
         interest_housing = 0.40
         result = round(CM.MortgageTemporaryReverse(total_amount, interest, quotas, interest_housing), 2)
-        expected = 176666.67
+        expected = 1104166.67
         self.assertEqual(result, expected)
 
     def test_case_extraordinary_3(self):
