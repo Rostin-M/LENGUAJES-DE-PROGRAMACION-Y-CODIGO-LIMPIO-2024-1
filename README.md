@@ -26,15 +26,18 @@ Este programa calcula la hipoteca inversa en tres casos o modalidades:
 ### ¿Cómo está hecho?
 Este proyecto sigue una arquitectura modular y limpia. Aquí está la estructura del proyecto:
 
-- Carpeta `Logic`: Contiene el código fuente de la lógica de la aplicación.
-  - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
-  - `Calculations.py`: Contiene las funciones para calcular la hipoteca inversa en diferentes modalidades y algunas verificaciones para ello.
-  - `Exceptions.py`: Define las excepciones personalizadas utilizadas en el programa.
-  - `Menu.py`: Proporciona el menú de la aplicación.
+- Carpeta `src`: Contiene el código fuente de la lógica de la aplicación. 
+    - Carpeta `console`
+        - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
+        - `Menu.py`: Proporciona el menú de la aplicación.
+    - Carpeta `logic`
+        - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
+        - `Calculations.py`: Contiene las funciones para calcular la hipoteca inversa en diferentes modalidades y algunas verificaciones para ello.
+        - `Exceptions.py`: Define las excepciones personalizadas utilizadas en el programa.
 
-- Carpeta `Test`: Contiene las pruebas unitarias para el código.
-  - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
-  - `Test_Module.py`: Archivo que contiene las pruebas unitarias para el código en `Logic`.
+- Carpeta `test`: Contiene las pruebas unitarias para el código.
+    - `__init__.py`: Archivo para que Python reconozca esta carpeta como un módulo.
+    - `Test_Module.py`: Archivo que contiene las pruebas unitarias para el código en `logic`.
 
 ### Uso
 Para ejecutar las pruebas unitarias, desde la carpeta raíz del proyecto, utiliza el siguiente comando en la terminal:
