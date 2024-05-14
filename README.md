@@ -83,10 +83,11 @@ python E4/runserver.py
 
 Abre tu navegador y ve a la URL 'http://localhost:5555/' para acceder a la aplicación.
 
-## 6. Para ejecutar las pruebas unitarias, usa el siguiente comado:
+## 6. Para ejecutar las pruebas unitarias:
+- Accede usando cd hasta llegar a la carpeta test (cd E4, cd MVC_HIPOTECA_INVERSA_4, cd test), cuando estes aqui ejecuta lo siguiente:
 
 ```
-python -m unittest discover -s MVC_HIPOTECA_INVERSA_4/test
+python test.py
 ```
 
 ### Advetencia

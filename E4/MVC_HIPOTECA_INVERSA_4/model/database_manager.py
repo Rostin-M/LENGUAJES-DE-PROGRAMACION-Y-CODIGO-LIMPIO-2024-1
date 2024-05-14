@@ -13,7 +13,7 @@ class DatabaseManager:
         return cls._instance
 
     def _initialize_connection(self):
-        # Lee los datos de conexi�n desde el archivo secret.config
+        # Lee los datos de conexi n desde el archivo secret.config
         config = ConfigParser()
         config.read('secret.cfg')
 
@@ -22,7 +22,7 @@ class DatabaseManager:
         self.user = config.get('database', 'PGUSER')
         self.password = config.get('database', 'PGPASSWORD')
 
-        # Establece la conexi�n a la base de datos
+        # Establece la conexi n a la base de datos
         self.connection = psycopg2.connect(
             host=self.host,
             database=self.database,
@@ -38,7 +38,7 @@ class DatabaseManager:
         return result
 
     def insert_data(self, table, data):
-        # Inserta datos en una tabla espec�fica
+        # Inserta datos en una tabla espec fica
         with self.connection.cursor() as cursor:
             columns = ', '.join(data.keys())
             values = ', '.join(f"'{value}'" for value in data.values())
