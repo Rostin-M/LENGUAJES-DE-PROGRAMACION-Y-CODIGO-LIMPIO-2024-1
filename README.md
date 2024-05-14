@@ -81,7 +81,7 @@ Iniciar el servidor de la aplicacion ejecutando el siguiente comando
 python E4/runserver.py
 ```
 
-Abre tu navegador y ve a la URL 'http://127.0.0.1:5000' para acceder a la aplicación.
+Abre tu navegador y ve a la URL 'http://localhost:5555/' para acceder a la aplicación.
 
 ## 6. Para ejecutar las pruebas unitarias, usa el siguiente comado:
 
